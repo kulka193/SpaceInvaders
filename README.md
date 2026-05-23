@@ -1,8 +1,7 @@
 # SpaceInvaders
-
 # SpaceInvaders RL Agents
 
-A collection of Jupyter Notebooks for training reinforcement learning (RL) agents on the classic Atari game Space Invaders using Python, TensorFlow/Keras, and OpenAI Gym. The repository demonstrates modern RL techniques including Deep Q-Networks (DQN) and Advantage Actor Critic (A2C), with robust preprocessing, environment wrappers, and model architectures.
+A collection of Jupyter Notebooks for training reinforcement learning (RL) agents on the classic Atari game Space Invaders using Python, TensorFlow/Keras, and OpenAI Gym. The repository demonstrates modern RL algorithms, tuning techniques, preprocessing, and experiment tracking.
 
 ---
 
@@ -10,8 +9,8 @@ A collection of Jupyter Notebooks for training reinforcement learning (RL) agent
 
 - [Project Overview](#project-overview)
 - [Notebooks Overview](#notebooks-overview)
-  - [DQN_SpaceIvaders (2).ipynb](#dqn_spaceivaders-2ipynb)
-  - [actor_critic_2.ipynb](#actor_critic_2ipynb)
+  - [DQN_SpaceIvaders.ipynb](#dqns_spaceivadersipynb)
+  - [actor_critic_agent.ipynb](#actor_critic_agentipynb)
 - [Installation](#installation)
 - [How to Run](#how-to-run)
 - [Usage & Customization](#usage--customization)
@@ -24,8 +23,8 @@ A collection of Jupyter Notebooks for training reinforcement learning (RL) agent
 
 This project implements RL agents that learn to play the Space Invaders Atari game. It provides:
 
-- Deep Q-Network (DQN) agent with frame stacking, experience replay, and Huber loss optimization.
-- Advantage Actor Critic (A2C) agent using dual-headed neural networks (actor and critic), custom loss functions, and reward discounting.
+- A Deep Q-Network (DQN) agent with frame stacking, experience replay, and Huber loss optimization.
+- An Advantage Actor Critic (A2C) agent using dual-headed neural networks (actor and critic), custom loss functions, and reward discounting.
 - Extensive notebook-based implementation for experimentation and visualization, compatible with Google Colab and local Jupyter environments.
 - Preprocessing (frame cropping, grayscaling, resizing, stacking) inspired by state-of-the-art DeepMind RL research.
 
@@ -33,7 +32,7 @@ This project implements RL agents that learn to play the Space Invaders Atari ga
 
 ## Notebooks Overview
 
-### `DQN_SpaceIvaders (2).ipynb`
+### `DQN_SpaceIvaders.ipynb`
 
 Implements a DQN Agent with the following features:
 
@@ -47,7 +46,7 @@ Implements a DQN Agent with the following features:
 - Model saving, video recording, and result visualization.
 - Hyperparameters tuned as per DeepMind’s DQN paper.
 
-### `actor_critic_2.ipynb`
+### `actor_critic_agent.ipynb`
 
 Implements an A2C (Advantage Actor Critic) Agent:
 
@@ -129,7 +128,8 @@ Implements an A2C (Advantage Actor Critic) Agent:
 - [Deep Q-Learning (DQN) paper (Mnih et al., 2015)](https://www.nature.com/articles/nature14236)
 - [OpenAI Gym documentation](https://www.gymlibrary.dev/)
 - [Advantage Actor-Critic (A2C) research](https://spinningup.openai.com/en/latest/algorithms/a2c.html)
-- [Deep Reinforcement Learning resources](https://nihit.github.io/resources/spaceinvaders.pdf), [BecomingHuman.ai SpaceInvaders DQN tutorial](https://becominghuman.ai/beat-atari-with-deep-reinforcement-learning-part-2-dqn-improvements-d3563f665a2c)
+- [Deep Reinforcement Learning resources](https://nihit.github.io/resources/spaceinvaders.pdf)
+- [BecomingHuman.ai SpaceInvaders DQN tutorial](https://becominghuman.ai/beat-atari-with-deep-reinforcement-learning-part-2-dqn-improvements-d3563f665a2c)
 
 ---
 
